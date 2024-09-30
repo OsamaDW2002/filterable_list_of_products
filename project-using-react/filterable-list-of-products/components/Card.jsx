@@ -10,7 +10,7 @@ export function Card({name, category, price}) {
                 </span>
                 <span>
                    <div>{category}</div>
-        </span>
+               </span>
             </div>
         </div>
     )

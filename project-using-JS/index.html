@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Main</title>
-    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <span> Osama Dweikat </span>
-        <span>Filtering System</span>
+    <header class='header'>
+        <span>Osama Dweikat</span>
+        <span>Filter System</span>
     </header>
-    <section>
-        filter bar
-    </section>
-    <section>
-        Cards
-    </section>
+    <ul>
+        <li><button>All</button>  </li>
+        <li><button>Electronics</button></li>
+        <li><button>Clothing</button></li>
+        <li><button>Footwear</button></li>
+        <li><button>Home Appliances</button></li>
+    </ul>
+
+    <div id="card-container" class='cardList'></div>
+    <script type="module" src="filter.js">
+    </script>
 </body>
 </html>
